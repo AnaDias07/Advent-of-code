@@ -9,7 +9,7 @@ class Day1AdventCallendar{
     public static List<String> ReadFile(){
         List<String> allLines = new ArrayList<String>();
         try {
-			allLines = Files.readAllLines(Paths.get("day1txt.txt"));
+			allLines = Files.readAllLines(Paths.get("day1input.txt"));
 		} catch (IOException e) {
             System.out.println("Error reading the file");
 			e.printStackTrace();
